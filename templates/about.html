@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>About Me</title>  
+    <link href="./static/main.css" rel="stylesheet">
+  </head>
+  <body class="">
+    <div id="site-border-left"></div>
+    <div id="site-border-right"></div>
+    <div id="site-border-top"></div>
+    <div id="site-border-bottom"></div>
+
+    <header>
+      <nav class="navbar  navbar-fixed-top navbar-default">
+        <div class="container">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav ">
+              <li><a href="./index.html" title="">01 : Home</a></li>
+              <li><a href="./webdev.html" title="">02 : Web Development</a></li>
+              <li><a href="./science.html" title="">03 : Data Science</a></li>
+              <li><a href="./cyber.html" title="">04 : Cyber Security</a></li>
+              <li><a href="./about.html" title="">05 : About Me</a></li>
+              <li><a href="./contact.html" title="">06 : Contact Me</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+    </header>
+
+    <div class="section-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-container-spacer text-center">
+                <h1 class="h2">05 : About me</h1>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                      <h3>Embarking on the Tech Odyssey</h3>
+                      <p>I'm on an exciting journey through the vast realms of technology, specializing in web development, cybersecurity, and data analysis. 
+                        My venture into the realm of cybersecurity commenced at the age of 18, where I honed my skills in network security. 
+                        In 2023, I took a plunge into the world of programming, mastering languages like Python, PHP, and JavaScript.
+                      </p>
+
+                      <h3>A Lifelong Student</h3>
+                      <p>The tech world is my classroom, and I'm a perpetual student. 
+                        I am committed to continuous learning, keeping pace with the latest industry trends. 
+                        Whether it's fortifying networks, crafting elegant code, or unraveling complex data puzzles, 
+                        I embrace the challenges that come with the ever-evolving tech landscape.
+                      </p>
+
+                      <h3>Adaptability and Creative Ingenuity</h3>
+                      <p>
+                        Armed with adaptability and a creative mindset, I approach problems with a zeal for finding innovative solutions. 
+                        Writing secure code, designing intuitive user interfaces, 
+                        and deciphering intricate data trends are all part of the dynamic tapestry that defines my journey in the tech field.
+                      </p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <img src="./static/assets/images/about.jpg" class="img-responsive" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="footer-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+              <p> Copyright &copy; {{ current_year }} | Website created by <a href="index.html">TUR14CUS</a><a></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+      });
+    </script>
+    <script type="text/javascript" src="./static/main.js"></script></body>
+</html>
